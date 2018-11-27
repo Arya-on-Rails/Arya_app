@@ -10,7 +10,7 @@ gem 'rails', '~> 5.2.1'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3.8'
-  gem 'rspec-rails', '~> 2.13.1'
+  gem 'rspec-rails', '~> 3.6.0'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -70,6 +70,8 @@ group :production do
   gem 'pg', '>=0.15.1'
   gem 'rails_12factor', '>=0.0.2'
 end
+
+gem 'test-unit'
 
 group :doc do
   gem 'sdoc', '~> 0.3.20', require: false
